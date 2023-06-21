@@ -16,4 +16,5 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 driver_path = 'C:/Users/Admin/Desktop/Faucet-Tidefi/chromedriver.exe'
 url = 'https://discord.com/channels/973057323805311026/979272741150687262' #Thay link kênh discord vào đây
 options = webdriver.ChromeOptions()
+#path to chrome driver
 service = ChromeService(executable_path=driver_path)
